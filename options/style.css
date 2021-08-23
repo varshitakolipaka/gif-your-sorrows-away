@@ -7,8 +7,6 @@
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    
-
   }
   
   .sidenav a {
@@ -104,8 +102,8 @@ ul {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-.app{
-  background-color: #fae1df;
+.card-color{
+  background-color: #D6EFFF;
   border-radius: 1em;
 }
 
@@ -190,8 +188,8 @@ a{
   top: 0;
   left: 0;
   background-color: #64a6bd;
-  -webkit-transform: translateX(-55px);
-  transform: translateX(-55px);
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
   
 }
 
@@ -213,3 +211,71 @@ a{
 .snip1467{
   width: 20%;
 }
+
+.card{
+  width: 18rem;
+  border: none !important;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.clock {
+  position: relative;
+  font-family: monaco, consolas, "courier new", monospace;
+  font-size: 3.5rem;
+  line-height: 1.375;
+}
+
+
+
+
+.mcs-item {
+  margin: 2%!important;
+}
+
+.MagicScroll-horizontal .mcs-item {
+  height: auto!important;
+}
+
+.MagicScroll-horizontal .mcs-button-arrow-prev:before, .MagicScroll-horizontal .mcs-button-arrow-next:before, .MagicScroll-vertical .mcs-button-arrow-prev:before, .MagicScroll-vertical .mcs-button-arrow-next:before {
+  top: -100%!important;
+}
+
+
+.bgimg {
+  height: 100%;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+
+
+
+.middle {
+  background-color: #FE654F;
+  vertical-align: center;
+  border-radius: 1em;
+}
+
+#demo {
+  position: relative !important;
+  text-align: center;
+  font-size: 5em !important;
+} 
+
+.card-container{
+  background-color: #FED18C !important;
+  border-radius: 1em;
+  padding: 1em;
+}
+#logo{
+  translate: -100% !important;
+  top: 0 !important;
+  width: 10em;
+}
+#pres{
+  display: none;
+}
+
